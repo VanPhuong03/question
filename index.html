@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Câu hỏi trắc nghiệm</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="question" >
+        <p> Trả lời câu hỏi</p>
+         <!-- Câu hỏi 1 -->
+       <div class="question1"  >
+        <label for="question1">Bác Hồ ra đi tìm đường cứu nước vào năm nào?</label><br>
+        <input class="qs" type="text" id="question1" autocomplete="off" placeholder="Nhập câu trả lời...">
+        <button class="bt0" onclick="checkAnswer1()">Kiểm tra</button>
+        <button class="bt1" style="margin-top: 20px;" onclick="resetAnswer1()">Nhập lại</button><br>
+        <button class="bt2" style="margin-top: 20px;" onclick="nextQuestion1()">Câu hỏi tiếp theo</button> <br>
+        <div class="answer">
+          <p id="correct1" style="display: none; color: green;">Bạn đã trả lời đúng!</p>
+          <p id="incorrect1" style="display: none; color: red;">Bạn đã trả lời sai, vui lòng thử lại.</p>
+        </div>
+      </div>
+      <!-- Câu hỏi 2 -->
+      <div class="question2" style="display: none;">
+        <label for="question2"> Năm 1941 Bác Hồ trở về nước tại cột mốc thứ bao nhiêu?</label><br>
+        <input class="qs" type="text" id="question2" autocomplete="off" placeholder="Nhập câu trả lời...">
+        <button class="bt0" onclick="checkAnswer2()">Kiểm tra</button>
+        <button class="bt1" style="margin-top: 20px;" onclick="resetAnswer2()">Nhập lại</button><br>
+        <button class="bt2" style="margin-top: 20px;" onclick="nextQuestion2()">Câu hỏi tiếp theo</button> <br>
+        <div class="answer">
+          <p id="correct2" style="display: none; color: green;">Bạn đã trả lời đúng!</p>
+          <p id="incorrect2" style="display: none; color: red;">Bạn đã trả lời sai, vui lòng thử lại.</p>
+        </div>
+      </div>
+      
+      <!-- Câu hỏi 3 -->
+      <div class="question3" style="display: none;">
+        <label for="question3">Phong trào Cần Vương bắt đầu từ năm nào</label><br>
+        <input class="qs" type="text" id="question3" autocomplete="off" placeholder="Nhập câu trả lời...">
+        <button class="bt0" onclick="checkAnswer3()">Kiểm tra</button>
+        <button class="bt1" style="margin-top: 20px;" onclick="resetAnswer3()">Nhập lại</button><br>
+        <button class="bt2" style="margin-top: 20px;" onclick="nextQuestion3()">Câu hỏi tiếp theo</button> <br>
+        <div class="answer">
+          <p id="correct3" style="display: none; color: green;">Bạn đã trả lời đúng!</p>
+          <p id="incorrect3" style="display: none; color: red;">Bạn đã trả lời sai, vui lòng thử lại.</p>
+        </div>
+      </div>
+      <!-- Câu hỏi 4 -->
+      <div class="question4" style="display: none;">
+        <label for="question4">Cộng hoà dân chủ nhân dân trung hoa thành lập năm bao nhiêu?</label><br>
+        <input class="qs" type="text" id="question4" autocomplete="off" placeholder="Nhập câu trả lời...">
+        <button class="bt0" onclick="checkAnswer4()">Kiểm tra</button>
+        <button class="bt1" style="margin-top: 20px;" onclick="resetAnswer4()">Nhập lại</button><br>
+        <button class="bt2" style="margin-top: 20px;" onclick="nextQuestion4()">Câu hỏi tiếp theo</button> <br>
+        <div class="answer">
+          <p id="correct4" style="display: none; color: green;">Bạn đã trả lời đúng!</p>
+          <p id="incorrect4" style="display: none; color: red;">Bạn đã trả lời sai, vui lòng thử lại.</p>
+        </div>
+      </div>
+       <!-- Câu hỏi 5 -->
+    <div class="question5" style="display: none;">
+        <label for="question5">Cộng sản đoàn được thành lập năm bao nhiêu?</label><br>
+        <input class="qs" type="text" id="question5" autocomplete="off" placeholder="Nhập câu trả lời...">
+        <button class="bt0" onclick="checkAnswer5()">Kiểm tra</button>
+        <button class="bt1" style="margin-top: 20px;" onclick="resetAnswer5()">Nhập lại</button><br>
+        <button class="bt2" style="margin-top: 20px;" onclick="nextQuestion5()">Bạn đã trả lời xong</button> <br>
+        <div class="answer">
+          <p id="correct5" style="display: none; color: green;">Bạn đã trả lời đúng!</p>
+          <p id="incorrect5" style="display: none; color: red;">Bạn đã trả lời sai, vui lòng thử lại.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <script src="main.js">
+    </script>
+</body>
+</html>
